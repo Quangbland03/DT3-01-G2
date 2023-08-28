@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>PROJECT</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- Slider  -->
+        <div class="col-sm-8 col-md-8">
+          <div class="slide-block">
+            <div class="slider">
+              <div class="image">
+                <img src="img/1.png" width="40%" />
+                <div class="text">Ảnh 1</div>
+              </div>
+              <div class="image">
+                <img src="img/2.png" width="40%" />
+                <div class="text">Ảnh 2</div>
+              </div>
+              <div class="image">
+                <img src="img/3.png" width="40%" />
+                <div class="text">Ảnh 3</div>
+              </div>
+            </div>
+            <div class="dots">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+
+              <a id="prev" onclick="show_slide(-1)">&#10094;</a>
+              <a id="next" onclick="show_slide(1)">&#10095;</a>
+            </div>
+          </div>
+        </div>
+        <!-- End Slider -->
+        <!-- Advertisements -->
+        <div class="col-sm-4 col-md-4">
+          <div class="ads">
+            <div class="ads-img-1">
+              <img src="img/1.png" alt="" height="" width="40%" />
+            </div>
+            <div class="distance"></div>
+            <div class="ads-img-2">
+              <img src="img/2.png" alt="" height="" width="40%" />
+            </div>
+          </div>
+        </div>
+        <!-- End Advertisements -->
+      </div>
+      <br /><br />
+      <!-- Menu Horizontal -->
+      <div class="row menu">
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Sách mới</span>
+        </div>
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Sách giảm giá</span>
+        </div>
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Sách bán chạy</span>
+        </div>
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Sách cũ</span>
+        </div>
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Văn học Việt Nam</span>
+        </div>
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Văn học nước ngoài</span>
+        </div>
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Khoa học tự nhiên</span>
+        </div>
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Khoa học xã hội</span>
+        </div>
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Thiếu nhi</span>
+        </div>
+        <div class="icon col-md-1 bi-journal-bookmark">
+          <span>Sách giáo khoa</span>
+        </div>
+        <div class="icon col-md-2 bi-journal-bookmark">
+          <span>Flash Sale</span>
+        </div>
+      </div>
+      <!-- End Menu Horizontal -->
+      <br /><br /><br />
+      <!-- Bookshelf -->
+      <div class="row-1">
+        <div class="title" id="menu-new">Sách mới</div>
+        <table class="table">
+          <tr>
+            <td>
+              <div class="book-cover">
+                <img src="img/book1.jpg" alt="Hai vạn dặm dưới biển" />
+              </div>
+              <div class="book-name">Hai vạn dặm dưới biển</div>
+              <span class="book-price">500.000</span>
+              <span class="discount">-50%</span>
+              <div class="old-price"><del>1.000.000</del></div>
+            </td>
+            <td>
+              <div>Hai vạn dặm dưới biển</div>
+              <div class="book-cover">
+                <img src="img/book1.jpg" alt="Hai vạn dặm dưới biển" />
+              </div>
+            </td>
+            <td>
+              <div>Hai vạn dặm dưới biển</div>
+              <div class="book-cover">
+                <img src="img/book1.jpg" alt="Hai vạn dặm dưới biển" />
+              </div>
+            </td>
+            <td>
+              <div>Hai vạn dặm dưới biển</div>
+              <div class="book-cover">
+                <img src="img/book1.jpg" alt="Hai vạn dặm dưới biển" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+          <tr>
+            <td colspan="4"><button class="more">Xem thêm</button></td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-sale">Sách giảm giá</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-sale">Sách bán chạy</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-old">Sách cũ</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-vn">Văn học Việt Nam</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-inter">Văn học nước ngoài</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-natural">Khoa học tự nhiên</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-social">Khoa học xã hội</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-kid">Thiếu nhi</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-textbook">Sách giáo khoa</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row-1">
+        <div class="title" id="menu-flashsale">Flash Sale</div>
+        <table class="table">
+          <tr>
+            <td>Sách 1</td>
+            <td>Sách 2</td>
+            <td>Sách 3</td>
+            <td>Sách 4</td>
+          </tr>
+          <tr>
+            <td>Sách 5</td>
+            <td>Sách 6</td>
+            <td>Sách 7</td>
+            <td>Sách 8</td>
+          </tr>
+        </table>
+      </div>
+      <!-- End Bookshelf -->
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
