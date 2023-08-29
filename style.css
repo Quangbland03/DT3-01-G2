@@ -1,0 +1,93 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* footer */
+
+.footer-menu{
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    background: url(image/headerbg.png) repeat-x scroll 50% 0 rgba(0,0,0,0);
+}
+
+
+.footer-menu .footer-menu_col{
+    width: 1000px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 252px;
+}
+
+
+.footer-menu .footer-menu_col .coll{
+    float: left;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 280px;
+}
+
+
+
+.footer-menu .footer-menu_col .coll ul li{
+    font-size: 16px;
+    list-style-type: none;
+    border-bottom: 1px solid #c2c2c2;
+    padding: 10px 0px 10px 30px;
+    background: url(image/arricon.png) no-repeat scroll 0 center rgba(0,0,0,0);
+}
+
+.footer-menu .footer-menu_col .coll li a{
+    color: #0F5731;
+    text-decoration: none;
+}
+
+.footer-menu .footer-menu_col .coll li a:hover{
+    color: #0F5731;
+    text-decoration: underline;
+}
+
+.footer-menu .footer-menu_col .fa-brands{
+    font-size: 40px;
+    margin-left: 333px;
+    margin-top: 50px;
+}
+
+.footer-copyright{
+    font-size: 14px;
+    background-color: #0F5731;
+    height: 200x;
+    color: #fff;
+}
+
+.footer-copyright .footer-copyright_firstline{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-copyright .footer-copyright_firstline a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-copyright .footer-copyright_secondline{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-copyright .footer-copyright_thirdline{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* end footer */
