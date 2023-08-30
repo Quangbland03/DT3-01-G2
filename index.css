@@ -176,12 +176,11 @@ content: none;
   
 .container{
     position: relative;
-    margin-top: 10%;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    position: absolute;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .image{
@@ -204,18 +203,18 @@ content: none;
   }
   
 #next{
-position: relative;
-float: right;
-right: 42%;
-cursor: pointer;
-padding: 1em;
-margin-top: 0.1em;
-color: whitesmoke;
-font-weight: bold;
-font-size: 0.4em;
-transition: 0.1s ease;
-border-radius: 10%;
-user-select: none;
+    position: relative;
+    float: right;
+    right: 42%;
+    cursor: pointer;
+    padding: 1em;
+    margin-top: 0.1em;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 0.4em;
+    transition: 0.1s ease;
+    border-radius: 10%;
+    user-select: none;
 }
 
 #prev:hover, #next:hover {
@@ -263,17 +262,21 @@ background: gray;
   
 .row{
     background-color: #bbb;
-    width: 90vw;
+    width: 80vw;
     margin-left: 5%;
     margin-top: 5%;
 }
 
 .row-1{
     /* background-color: #bbb; */
-    width: 90vw;
+    width: 80vw;
     margin-left: 5%;
     margin-top: 5%;
     font-size: large;
+}
+
+tr>td>.more{
+    position: relative;
 }
 
 tr, td{
@@ -314,6 +317,8 @@ tr, td{
     font-weight: bold;
     color: yellowgreen;
     background-color: #0c4fb3;
+    width: 80vw;
+    text-align: center;
 }
 
 ul, li{
@@ -341,21 +346,23 @@ ul, li{
 }
 
 .book-cover img{
-    width: 75%;
+    width: 65%;
     height: 50%;
 }
 
 .book-name{
-    font-size: x-large;
+    font-size: large;
     font-weight: bolder;
     color: whitesmoke;
+    text-align: center;
 }
 
 .book-price{
     font-size: x-large;
     color: greenyellow;
     font-weight: bold;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin: 12%;
 }
 
 .discount{
@@ -363,11 +370,12 @@ ul, li{
     color: white;
     font-size: x-large;
     font-weight: bold;
+    font-style: italic;
     padding: 0.1em;
 }
 
 .old-price{
-    margin-right: 35%;
+    margin-left: 12%;
     font-size: large;
 }
 
@@ -378,6 +386,7 @@ ul, li{
     border-color: red;
     width: 15%;
     font-weight: bolder;
+    align-items: center;
 }
 
 .more:hover{
