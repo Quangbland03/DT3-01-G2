@@ -275,10 +275,6 @@ background: gray;
     font-size: large;
 }
 
-tr>td>.more{
-    position: relative;
-}
-
 tr, td{
     border: 2px solid black;
     /* height: 300px; */
@@ -384,9 +380,11 @@ ul, li{
     color: blue;
     border-radius: 20px;
     border-color: red;
-    width: 15%;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
     font-weight: bolder;
-    align-items: center;
+    position: relative;
 }
 
 .more:hover{
