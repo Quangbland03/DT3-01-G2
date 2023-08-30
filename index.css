@@ -416,7 +416,7 @@ ul, li{
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    margin-left: 252px;
+    margin-left: 20%;
 }
 
 
@@ -424,16 +424,14 @@ ul, li{
     float: left;
     margin-right: 40px;
     margin-top: 20px;
-    width: 280px;
+    width: 320px;
 }
-
-
 
 .footer-menu .footer-menu_col .coll ul li{
     font-size: 16px;
     list-style-type: none;
     border-bottom: 1px solid #c2c2c2;
-    padding: 10px 0px 10px 30px;
+    padding: 10px 0px 0px 30px;
     background: url(image/arricon.png) no-repeat scroll 0 center rgba(0,0,0,0);
 }
 
@@ -449,15 +447,18 @@ ul, li{
 
 .footer-menu .footer-menu_col .fa-brands{
     font-size: 40px;
-    margin-left: 333px;
+    margin-left: 150px;
     margin-top: 50px;
 }
 
 .footer-copyright{
     font-size: 14px;
     background-color: #0F5731;
-    height: 200x;
+    height: 120px;
     color: #fff;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 120px;
 }
 
 .footer-copyright .footer-copyright_firstline{
